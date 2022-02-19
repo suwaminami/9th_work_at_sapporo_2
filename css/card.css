@@ -1,0 +1,52 @@
+
+.contain{
+    text-align: center;
+}
+
+.sample05 {
+	width: 350px;
+	height: 400px;
+	vertical-align: top;
+	margin: 10px 8px;
+    border-radius: 6px;
+	box-shadow: 0px 2px 4px #aaa;
+	display: inline-block;
+	position: relative;
+}
+.sample05 .card05 {
+	width: 100%;
+	height: 100%;
+}
+.sample05 h2 {
+	font-size: 18px;
+	padding: 4px 16px;
+}
+.sample05 p {
+	padding: 4px 16px;
+}
+.sample05 .caption {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 80px;
+	color: #fff;
+}
+.sample05 img {
+	width: 350px;
+	height: 200px;
+	border-radius: 6px 6px 0 0;
+}
+.sample05 .mask {
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	border-radius: 6px;
+	background: rgba(0,0,55,0.5);
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.sample05:hover .mask {
+	opacity: 0.7;
+}
